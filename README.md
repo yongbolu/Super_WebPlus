@@ -1,6 +1,4 @@
-# Super_WebPlus
-This is a project for web of forhead
-META常识
+# META常识
 一、什么是Viewport
 手机浏览器是把页面放在一个虚拟的“窗口”（viewport）中，通常这个虚拟的“窗口”（viewport）比屏幕宽，这样就不用把每个网页挤到很小的窗口中（这样会破坏没有针对手机浏览器优化的网页的布局），用户可以通过平移和缩放来看网页的不同部分。移动版的 Safari 浏览器最新引进了 viewport 这个 meta tag，让网页开发者来控制 viewport 的大小和缩放，其他手机浏览器也基本支持。
 1、H5页面窗口自动调整到设备宽度，并禁止用户缩放页面
