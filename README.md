@@ -23,38 +23,38 @@
 `<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <!-- 可选default、black、black-translucent -->`
 6. viewport模板    
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"     name="viewport">
-    <meta content="yes" name="apple-mobile-web-app-capable">
-    <meta content="black" name="apple-mobile-web-app-status-bar-style">
-    <meta content="telephone=no" name="format-detection">
-    <meta content="email=no" name="format-detection">
-    <title>标题</title>
-    <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-    </body>
-    </html>
+
+    `<!DOCTYPE html>`    
+    `<html>`    
+    `<head>`    
+    `<meta charset="utf-8">`    
+    `<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"    name="viewport">`    
+    `<meta content="yes" name="apple-mobile-web-app-capable">`    
+    `<meta content="black" name="apple-mobile-web-app-status-bar-style">`    
+    `<meta content="telephone=no" name="format-detection">`    
+    `<meta content="email=no" name="format-detection">`    
+    `<title>标题</title>`    
+    `<link rel="stylesheet" href="index.css">`    
+    `</head>`    
+    `<body>`    
+    `</body>`    
+    `</html>`  
 
 7. viewport模板 – target-densitydpi=device-dpi，android 2.3.5以下版本不支持    
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi"><!-- width取值与页面定义的宽度一致 -->
-    <meta content="yes" name="apple-mobile-web-app-capable">
-    <meta content="black" name="apple-mobile-web-app-status-bar-style">
-    <meta content="telephone=no" name="format-detection">
-    <meta content="email=no" name="format-detection">
-    <title>标题</title>
-    <link rel="stylesheet" href="index.css">
-    </head>
 
-    <body>
-    
-    </body>
-
-    </html>
+    `<!DOCTYPE html>`    
+    `<html>`    
+    `<head>`    
+    `<meta charset="utf-8">`    
+    `<meta name="viewport" content="width=750, user-scalable=no`    
+    `target-densitydpi=device-dpi"><!-- width取值与页面定义的宽度一致 -->`    
+    `<meta content="yes" name="apple-mobile-web-app-capable">`    
+    `<meta content="black" name="apple-mobile-web-app-status-bar-style">`    
+    `<meta content="telephone=no" name="format-detection">`    
+    `<meta content="email=no" name="format-detection">`    
+    `<title>标题</title>`    
+    `<link rel="stylesheet" href="index.css">`    
+    `</head>`    
+    `<body>`    
+    `</body>`    
+    `</html>`
